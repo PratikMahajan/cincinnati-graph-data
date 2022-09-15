@@ -595,7 +595,7 @@ dependencies = [
  "lazy_static",
  "regex",
  "reqwest",
- "semver 0.11.0",
+ "semver 1.0.14",
  "serde",
  "serde_yaml",
  "test-case",
@@ -2301,6 +2301,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f301af10236f6df4160f7c3f04eec6dbc70ace82d23326abad5edee88801c6b6"
 dependencies = [
  "semver-parser 0.10.2",
+ "serde",
+]
+
+[[package]]
+name = "semver"
+version = "1.0.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e25dfac463d778e353db5be2449d1cce89bd6fd23c9f1ea21310ce6e5a1b29c4"
+dependencies = [
  "serde",
 ]
 
